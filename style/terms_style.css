@@ -1,0 +1,92 @@
+.main-inner-wrapper {
+	padding: 20px 20px;
+}
+.terms-menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.terms-menu a img{ 
+	width: 78px;
+	margin: 0 0 7px 0;
+	background: #e43f3f;
+}
+a.active img{ 
+	background: #363636;
+}
+.terms-menu a:hover img{
+	background: #363636;
+}
+.bottom-inner-wrapper{
+	padding: 0 10px 0 20px;
+}
+.issue-container{
+	margin: 0 0 20px 0;
+}
+.issue-container h3{
+	margin: 0 0 10px 0;
+	padding: 5px 20px;
+	display: inline-block;
+	background: #e43f3f;
+	font-size: 14px;
+	font-style: italic;
+	color: #fff;
+}
+.issue-container ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.issue-container ul li, .issue-container div{
+	padding-left: 0;
+	margin: 0 0 10px 0;
+	background: #363636;
+	color: #fff;
+}
+.issue-container ul li div, .issue-container div div{
+	padding: 3px 0 0 0;
+}
+.issue-container ul li div span, .issue-container div div span{
+	padding: 5px 10px;
+	background: #e43f3f;
+	font-size: 12px;
+}
+.issue-container ul li p, .issue-container div p{
+	padding-left: 40px;
+}
+@media screen and (min-width: 640px){
+	
+}
+@media screen and (min-width: 768px){
+	.terms-menu{
+		padding: 0;
+	}
+	.terms-menu a img{
+		width: 59px;
+		height: auto;
+		margin: 0 0 7px 7px;
+	}
+	.bottom-main{
+		width: 90.7%;
+		float: right;
+		border-left: 1px solid #d8d8d8;
+	}
+}
+@media screen and (min-width: 990px){
+	.terms-menu a img{
+		width: 78px;
+	}
+}
+@media screen and (min-width: 1024px){
+	.terms-menu img{
+		margin-left: 0;
+	}
+}
+@media screen and (min-width: 1200px){
+	.terms-menu{
+		margin-left: 10px;
+	}
+	.terms-menu a img{
+		margin: 0 0 7px 0;
+	}
+}
