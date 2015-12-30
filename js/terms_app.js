@@ -5,11 +5,11 @@ $(function (){
 			$(this).addClass("active");
 		}
 	});
-	$("nav a").on("click", function(e){
+	$(".terms-menu a").on("click", function(e){
 		e.preventDefault();
 		var url = this.href;
 
-		$("nav a.active").removeClass("active");
+		$(".terms-menu a.active").removeClass("active");
 		$(this).addClass("active");
 
 		$.ajax({
