@@ -1,5 +1,5 @@
 .bottom-inner-wrapper {
-    padding: 0px 10px 300px 20px;
+    padding: 0px 10px 350px 20px;
 }
 .support-text-box{
 	margin-bottom: 5px;
@@ -24,13 +24,21 @@
 }
 .topic-wrapper ul{
 	margin: 0 0 215px 0;
-	padding: 0;	
+	padding: 0;
+	background: #fff;
 	display: inline-block;
 	position: absolute;
 	z-index: 50;
 }
+.topic-wrapper ul:nth-of-type(2){
+	margin: 70px 0 215px 0;
+	z-index: 40;
+}
 .topic-wrapper ul:hover{
 	margin: 0 0 50px 0;
+}
+.topic-wrapper ul:nth-of-type(2):hover{
+	margin: 70px 0 50px 0;
 }
 .topic-wrapper ul li{
 	height: 35px;
@@ -71,7 +79,7 @@
 	background: #363636;
 }
 .topic-wrapper .text-holder{
-	margin: 63px 0 0 0;
+	margin: 145px 0 0 0;
 	padding: 0;
 	position: absolute;
     font-style: italic;
