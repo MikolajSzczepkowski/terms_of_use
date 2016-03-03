@@ -64,7 +64,7 @@
 	visibility: hidden;
 	position: absolute;
 }
-.topic-wrapper .text-holder input{
+.topic-wrapper .text-holder input[type="submit"]{
 	height: 35px;
 	margin: 10px 0 0 0;
 	float: right;
@@ -75,7 +75,7 @@
     font-style: italic;
     border: none;
 }
-.topic-wrapper .text-holder input:hover{
+.topic-wrapper .text-holder input[type="submit"]:hover{
 	background: #363636;
 }
 .topic-wrapper .text-holder{
@@ -84,6 +84,23 @@
 	position: absolute;
     font-style: italic;
 	z-index: 10;
+}
+.topic-wrapper .text-holder div{
+	padding: 0;
+	margin-bottom: 10px;
+}
+.topic-wrapper .text-holder div label{
+	margin: 0;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	background: #e43f3f;
+	color: #fff;
+	font-weight: bold;
+	font-style: normal;
+}
+.topic-wrapper .text-holder div input[type="text"]{
+	height: 32px;
+	border: 2px solid #e43f3f;
 }
 .text-holder textarea{
 	height: 150px;
