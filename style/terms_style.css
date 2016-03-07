@@ -1,3 +1,6 @@
+html, body{
+	height: 100%;
+}
 .main-inner-wrapper {
 	padding: 20px 20px 0 20px;
 }
@@ -70,6 +73,9 @@ a.active img{
 		width: 90.7%;
 		float: right;
 		border-left: 1px solid #d8d8d8;
+	}
+	#termsOfUse{
+		height: 100%;
 	}
 }
 @media screen and (min-width: 990px){
